@@ -1,0 +1,12 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+.turbo/cookies/*
+.turbo/cache/*
+.turbo/daemon/*
+cdk.out/.cache/
